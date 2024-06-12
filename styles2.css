@@ -1,0 +1,161 @@
+@font-face {
+    font-family: NCND;
+    src: url("Eckmann.woff2");
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5em;
+    margin-bottom: 0;
+    padding-left: 2em;
+    animation: fadeIn 8s;
+   
+    
+}
+
+h2 {  
+    font-size: 24em;
+    font-family: NCND;
+    src: url("Eckmann.woff2");
+    margin-top: -.18em;
+    margin-bottom: 0em;
+    text-align: center;
+    animation: fadeIn 8s;  
+    
+}
+
+    
+
+h3{font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -1em;
+    margin-bottom: 7em;
+    text-align: right;
+    padding-right: 1em;
+    animation: fadeIn 8s;
+   
+}
+
+section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+padding-bottom: 0em;}
+
+
+
+h4 {font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 1em;
+    margin-bottom: 0em;
+    animation: scrolltext 3s;
+    animation-iteration-count: 3;
+    animation-direction:alternate-reverse
+}
+
+h5{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 2em;
+padding-right: 1em;
+padding-left: 1em;}
+
+
+
+h7{ font-family: NCND;
+    font-size: 24em;
+    text-align: center;
+    padding-left: 0.7em;  
+}
+
+
+h8{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: em;
+    padding-right: 1em;}
+
+    .imgRow {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .imgRow img {
+        width: 60%;
+        object-fit: cover;
+        margin-bottom: 10em;
+        
+    }
+
+
+
+p{font-size: 2em;
+text-align:left;
+padding-left: 1em;
+padding-right: 1em;
+padding-bottom: em;
+padding-top: -2em;
+margin-top: 0em;
+font-family: Calibri, Georgia, 'Times New Roman', Times, serif;}
+
+
+
+
+.tekstimg{display: flex;
+    flex-direction: row;
+  text-align: center;
+    margin-top: 5em;
+    padding-left: 2em;
+
+} 
+  
+.fade-in-text2{animation: fadeIn 6s;
+
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+ @keyframes scrolltext{
+    0%{transform:translate X(100%)}
+
+    100%{transform: translate(-100%);}
+ }
+
+
+section:nth-of-type(2){display: flex;
+    flex-direction: row;
+    padding-bottom: 6em;
+    text-align: right;
+    padding-right: 0em;
+
+
+
+}
+section:nth-of-type(2) p:nth-of-type(2){text-align:right;
+padding-right: 0em;
+padding-left: 0em;}
+
+section:nth-of-type(3){
+    padding-top: 1em;
+    text-align: left;
+}
+
+.FontOverviewRow{ display: flex;
+    flex-direction: row;
+    padding-left: 1em;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+.FontOverviewRow2{ display: flex;
+    flex-direction: row;
+    padding-left: 1em;
+    justify-content: space-between;
+
+}
+
+.FontInUse{ display: flex;
+padding-top: 7em;}
+
